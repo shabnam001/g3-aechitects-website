@@ -103,3 +103,27 @@ main{
 /*features section styles starts*/
 
 /*features section styles ends*/
+/*facts-section starts*/
+.fact-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.fact-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+.fact-card-container .card-starts{
+    font-size: 45px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fact-card-container .card-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+/*facts-section ends*/
