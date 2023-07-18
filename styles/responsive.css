@@ -4,15 +4,18 @@
     header{
         padding: 20px;
     }
-    nav, .teams-container{
+    nav, .teams-container, .fact-card-container, .sponsors-img-container{
         flex-direction: column;
     }
-    .teams-img-containe{
+    .teams-img-container{
         grid-template-columns: 1fr;
     }
-    .teams-content{
+    .teams-content, .fact-card-container{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .fact-card-container{
+        gap: 20px;
     }
 }
 /*tablet or medium devices*/
@@ -20,7 +23,7 @@
     header{
         padding: 50px;
     }
-    nav, .teams-container{
+    nav, .teams-container, .sponsors-img-container{
         flex-direction: column;
     }
     
