@@ -4,7 +4,7 @@
     header{
         padding: 20px;
     }
-    nav, .teams-container, .fact-card-container, .sponsors-img-container{
+    nav, .teams-container, .fact-card-container, .sponsors-img-container, .features{
         flex-direction: column;
     }
     .teams-img-container{
@@ -13,6 +13,14 @@
     .teams-content, .fact-card-container{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .features-img img{
+        width: 100%;
+        margin: 0;
+    }
+    .ten-years-badge{
+        position: static;
+        max-width: 300px;
     }
     .fact-card-container{
         gap: 20px;
@@ -23,7 +31,7 @@
     header{
         padding: 50px;
     }
-    nav, .teams-container, .sponsors-img-container{
+    nav, .teams-container, .sponsors-img-container, .features{
         flex-direction: column;
     }
     
