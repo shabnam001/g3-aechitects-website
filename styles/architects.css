@@ -20,6 +20,11 @@
 .text-color{
         color: #727272;
     }
+.section-title{
+        font-size: 45px;
+        font-weight: 700;
+        color: #131313;
+}
 
 /*header style starts*/
 header{
@@ -31,11 +36,6 @@ nav{
     display: flex;
     justify-content: space-between; 
     align-items: center;
-}
-.nav-title{
-    font-size: 45px;
-    font-weight: 700;
-    color: #131313;
 }
 nav > ul{
     display: flex;
@@ -100,3 +100,6 @@ main{
     font-weight: 700;
 }
 /*teams section styles ends*/
+/*features section styles starts*/
+
+/*features section styles ends*/
